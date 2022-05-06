@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "angularmb-1149d": {
+      "hosting": {
+        "udemy-employee": [
+          "angularmb-1149d"
+        ]
+      }
+    },
+    "reserva-mb": {
+      "hosting": {
+        "udemy-employee": [
+          "reserva-mb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "reserva-mb"
+  }
+}
