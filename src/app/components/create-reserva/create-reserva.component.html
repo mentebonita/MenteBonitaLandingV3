@@ -3,11 +3,14 @@
       <div class="row">
           <div class="col-12">
               <h2 class="card-title text-center" style="color: var(--azul_primary); font-family: Abhaya Libre SemiBold; height: 100px; font-size: 40px;">Reserva tu cita</h2>
-          </div>
+               </div>
+
           <div class="col d-flex justify-content-center">
               <div class="card mb-3" style="max-width: 1000px;">
                   <div class="row g-0">
-                    <form class="row g-3">
+                    <span *ngIf="submitted && createReserva.invalid" class="badge bg-dark col-3">Por favor Complete todo los campos</span>
+
+                    <form class="row g-3" [formGroup]="createReserva" (ngSubmit)="agregarReserva()">
                       <div class="col-md-4">
                         <label for="validationDefault01" class="form-label">Nombre</label>
                         <input type="text" class="form-control" formControlName="nombre"  id="validationDefault01"  required>
@@ -30,13 +33,7 @@
                           <input type="text" class="form-control" formControlName="telefono"  id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
                         </div>
                       </div>
-                      <div class="col-md-4">
-                        <select>
-                          <option class="text" *ngFor="let especialista of especialistas | async">
-                            [{{especialista.name}} ,{{especialista.precio}}]
-                          </option>
-                        </select>
-                      </div>
+
                       <div class="col-12">
                         <button  class="btn me-sm-2 text-white" type="submit" style="background: var(--azul_primary);" method="get">Registrar cita</button>
                       </div>
