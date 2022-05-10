@@ -5,15 +5,12 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ReservaService {
+export class EspecialistaService {
 
   constructor(private  firestore: AngularFirestore) {
 
    }
-
-  agregarReserva(reserva:any): Promise <any>{
-    return this.firestore.collection('reserva').add(reserva);
-
-
-  }
+   listEspecialista():Observable<any>{
+    return this.firestore.collection('especialistas').valueChanges();
+   }
 }
