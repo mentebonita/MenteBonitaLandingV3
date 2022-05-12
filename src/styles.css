@@ -92,7 +92,20 @@ object-fit: cover;
 width: 40px;
 object-fit: cover;
 }
+#main .carousel-inner img {
+  height:70vh;
+ width: 85vh;
+ left: 80px;
+ border-radius: 15px;
 
+}
+
+#main .carousel-caption img {
+  height:50vh;
+ width: 40vh;
+
+
+}
 #crecer img{
 max-width: 100%;
 height: auto;

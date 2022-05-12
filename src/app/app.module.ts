@@ -13,12 +13,14 @@ import { environment } from '../environments/environment';
 import { provideFunctions,getFunctions } from '@angular/fire/functions';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    CreateReservaComponent
+    CreateReservaComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
