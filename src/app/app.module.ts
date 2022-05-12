@@ -11,7 +11,8 @@ import { CreateReservaComponent } from './components/create-reserva/create-reser
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFunctions,getFunctions } from '@angular/fire/functions';
-
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +26,8 @@ import { provideFunctions,getFunctions } from '@angular/fire/functions';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     ReactiveFormsModule,
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule
     /*provideFunctions(() => getFunctions())*/
   ],
   providers: [],

@@ -1,3 +1,5 @@
+
+@import '~ngx-toastr/toastr';
 :root {
   --azul_primary: #151C32 ;
   --marron_primary: #AC6A4D;
