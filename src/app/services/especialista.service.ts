@@ -10,7 +10,5 @@ export class EspecialistaService {
   constructor(private  firestore: AngularFirestore) {
 
    }
-   listEspecialista():Observable<any>{
-    return this.firestore.collection('especialistas').valueChanges();
-   }
+
 }

@@ -16,4 +16,7 @@ export class ReservaService {
 
 
   }
+  lisEspecialista(especialista:any): Observable <any>{
+   return this.firestore.collection('especialistas').snapshotChanges(especialista);
+  }
 }

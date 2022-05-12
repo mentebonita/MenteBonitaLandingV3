@@ -37,14 +37,29 @@
                           <input type="text" class="form-control" formControlName="telefono"  id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
                         </div>
                       </div>
-                      <div class="col-md-4">
-                        <select class="form-select">
-                        <option value="">Seleciona tu especialista</option>
-                        <option value="1">Alejandra Pachioni</option>
-                        <option value="2"></option>
+                      <div class="col-md-4 mt-5">
+                        <select class="form-select" formControlName="especialidad"  >
+                        <option value="" selected disabled >Escoge tu especialidad</option>
+                        <option value="Psicologia">Psicologia</option>
+                        <option value="Ansiedad">Ansiedad</option>
+                        <option value="Estres">Estres</option>
+                        <option value="Psiquiatria">Psiquiatria</option>
+                        <option value="Tanotologia">Tanotologia</option>
+                        <option value="Nutricion">Nutricion</option>
+                        <option value="Familia">Familia</option>
+                        <option value="Pareja">Pareja</option>
+                        <option value="Artes Expresivas">Artes Expresivas</option>
+                        <option value="Actividad fisica">Actividad Fisica</option>
+                        <option value="Astrologia">Astrologia</option>
                         </select>
                         </div>
-                      <div class="col-12">
+                      <div class="col-md-4 mt-5">
+                        <div class="form-floating">
+                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"  formControlName="motivo" style="height: 100px"></textarea>
+                          <label for="floatingTextarea2">Dejanos el motivo de tu reserva</label>
+                        </div>
+                      </div>
+                      <div class="col-12 mb-3 ms-2">
                         <button  class="btn me-sm-2 text-white" type="submit" style="background: var(--azul_primary);" method="get">Registrar cita</button>
                       </div>
                     </form>
@@ -56,4 +71,5 @@
       </div>
   </div>
 </section>
+
 

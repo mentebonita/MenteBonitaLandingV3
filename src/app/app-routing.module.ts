@@ -6,7 +6,7 @@ import { ReservaFinalComponent } from './components/reserva-final/reserva-final.
 
 const routes: Routes = [
 
-  {path:'create-reserva',component:CreateReservaComponent},
+  /*{path:'create-reserva',component:CreateReservaComponent},*/
   {path:'fin-reserva', component: ReservaFinalComponent}
 ];
 
