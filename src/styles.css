@@ -105,20 +105,124 @@
   object-fit: cover;
 }
 
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover {
+  background-color: #82ad36;
+}
+
 #main .carousel-inner img {
-  height: 70vh;
-  width: 85vh;
-  left: 80px;
-  /*border-radius: 15px;*/
-
+  max-height: 70vh;
 }
 
-#main .carousel-caption img {
-  height: 50vh;
-  width: 40vh;
-
-
+#carousel {
+  position: relative;
 }
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
+}
+
+.home-testimonial {
+  background-color: var(--gris_cla_primary);
+  height: 825px;
+}
+@media(min-width:768px){
+  .home-testimonial{
+    height: 400px;
+  }
+}
+
+
+.home-testimonial-bottom {
+  background-color: #f8f8f8;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 130px;
+  top: 190px
+}
+
+.home-testimonial h3 {
+  color: var(--orange);
+  font-size: var(--small);
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+.home-testimonial h2 {
+  text-align: center;
+  color: var(--azul_primary);
+  font-size: var(--medium);
+  font-weight: 700
+}
+
+.testimonial-inner {
+  position: relative;
+  top: -174px
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px
+}
+
+.color-grey-3 {
+  font-family: "Montserrat", "Bodoni ";
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none
+}
+
+.link-name {
+  font-family: "Montserrat", "Bodoni";
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2
+}
+
 
 #crecer img {
   max-width: 100%;
@@ -277,195 +381,4 @@
 
 #servicios {
   z-index: 1;
-}
-
-#carousel .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  color: white;
-}
-
-#carousel .overlay .container,
-#carousel .overlay .row {
-  height: 90%;
-}
-
-.rectangle_services {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #E6E2D4;
-  border-radius: 30px;
-}
-
-.btn-platzi {
-  background-color: #97c93e;
-  color: white;
-}
-
-.btn-platzi:hover {
-  background-color: #82ad36;
-}
-
-#header img {
-  width: 80px;
-}
-
-#main .carousel-inner img {
-  max-height: 70vh;
-
-}
-
-#carousel {
-  position: relative;
-}
-
-#carousel .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-}
-
-#carousel .overlay .container,
-#carousel .overlay .row {
-  height: 100%;
-}
-
-#place-time {
-  background-color: #343a40;
-  color: white;
-}
-
-#place-time img {
-  max-width: 100%;
-}
-
-#footer {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-}
-
-#footer a {
-  color: white;
-}
-
-
-#main .carousel-inner img {
-  max-height: 70vh;
-
-}
-
-#carousel {
-  position: relative;
-}
-
-#carousel .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-}
-
-#carousel .overlay .container,
-#carousel .overlay .row {
-  height: 100%;
-}
-
-#place-time {
-  background-color: #343a40;
-  color: white;
-}
-
-#place-time img {
-  max-width: 100%;
-}
-
-#footer {
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-}
-
-#footer a {
-  color: white;
-}
-
-.home-testimonial {
-  background-color: var(--gris_cla_primary);
-  height: 380px
-}
-
-.home-testimonial-bottom {
-  background-color: #f8f8f8;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  position: relative;
-  height: 130px;
-  top: 190px
-}
-
-.home-testimonial h3 {
-  color: var(--orange);
-  font-size: var(--small);
-  font-weight: 500;
-  text-transform: uppercase
-}
-
-.home-testimonial h2 {
-  text-align: center;
-  color: var(--azul_primary);
-  font-size: var(--medium);
-  font-weight: 700
-}
-
-.testimonial-inner {
-  position: relative;
-  top: -174px
-}
-
-.testimonial-pos {
-  position: relative;
-  top: 24px
-}
-
-.testimonial-inner .tour-desc {
-  border-radius: 5px;
-  padding: 40px
-}
-
-.color-grey-3 {
-  font-family: "Montserrat", "Bodoni ";
-  font-size: 14px;
-  color: #6c83a2
-}
-
-.testimonial-inner img.tm-people {
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  max-width: none
-}
-
-.link-name {
-  font-family: "Montserrat", "Bodoni";
-  font-size: 14px;
-  color: #6c83a2
-}
-
-.link-position {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 12px;
-  color: #6c83a2
 }
