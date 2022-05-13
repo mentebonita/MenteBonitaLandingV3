@@ -14,13 +14,17 @@ import { provideFunctions,getFunctions } from '@angular/fire/functions';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { ContInicioComponent } from './components/contInicio/contInicio.component';
+import { CardsComponent } from './components/cards/cards.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
     CreateReservaComponent,
-    CarruselComponent
+    CarruselComponent,
+    ContInicioComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
