@@ -1,0 +1,31 @@
+.boton1 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #FFFFFF;
+  color: #AC6A4D;
+  border: 2px solid #AC6A4D;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.boton1:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}
+
+.boton2 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #AC6A4D;
+  border-radius: 8px;
+  border: 2px solid #AC6A4D;
+  box-sizing: border-box;
+}
+
+.boton2:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}

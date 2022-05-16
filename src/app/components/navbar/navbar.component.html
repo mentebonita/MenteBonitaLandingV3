@@ -1,42 +1,47 @@
-<nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top pt-0" style="background: #ca9f8dde;">
+<nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top pt-0" style="background:transparent;">
   <div class="container ps-0 pt-0">
       <a class="navbar-brand ps-4 ps-sm-0" href="#"><img src="./assets/img/Group.svg" alt="logo" class="w-100 h-100"></a>
-      <select style="width: 140px;" name="countries" id="countries" is="ms-dropdown" data-child-height="200">
+      <!-- /select style="width: 140px;" name="countries" id="countries" is="ms-dropdown" data-child-height="200">
         <option value='pe' data-image-css="flag pe" data-title="Peru">Peru</option>
         <option value='ar' data-image-css="flag ar" data-title="Argentina">Argentina</option>
         <option value='mx' data-image-css="flag mx" data-title="Mexico">Mexico</option>
         <option value='pa' data-image-css="flag cl" data-title="Chile">Chile</option>
-      </select>
+      </select>-->
           <button class="navbar-toggler bg-dark ms-4 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
   <div class="collapse navbar-collapse text-start ps-4 ps-sm-0" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color:#151C32">Inicio</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#carousel" style="color:#151C32">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios" style="color:#151C32">Servicios</a>
           </li>
 
-          <li class="nav-item dropdown">
+          <!--<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" style="color:#151C32" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Programas
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./components/programaIndividualPeru/programaIndividualPeru.component" routerLink="/individual-peru" style="color:#151C32">Individuales</a></li>
+                  <li><a class="dropdown-item" href="./components/programaIndividualPeru/programaIndividualPeru.component.html" routerLink="/individual-peru" style="color:#151C32">Individuales</a></li>
                   <li><a class="dropdown-item" href="#" style="color:#151C32">Grupales</a></li>
 
               </ul>
-        </li>
+        </li>-->
            <li class="nav-item">
-              <a class="nav-link" href="#" style="color:#151C32">Precios</a>
+              <a class="nav-link" href="#precios" style="color:#151C32">Precios</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#" style="color:#151C32">Especialistas</a>
+              <a class="nav-link" href="#especialistas" style="color:#151C32">Especialistas</a>
           </li>
       </ul>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn me-md-2 text-white" type="button" style="background: #AC6A4D;">Reservar</button>
-      </div>
+        <a href="#reserva">
+          <button class="btn me-md-2 text-white"  type="button" style="background: var(--marron_primary);">Reservar</button>
+        </a>
+        </div>
     </div>
   </div>
 </nav>

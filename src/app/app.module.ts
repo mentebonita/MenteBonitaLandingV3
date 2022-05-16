@@ -16,6 +16,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { ContInicioComponent } from './components/contInicio/contInicio.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { InicioPeruComponent } from './components/inicio-peru/inicio-peru.component';
+import { EspecialistasComponent } from './components/especialistas/especialistas.component';
+import { PreciosIndividualesPeruComponent } from './components/precios-individuales-peru/precios-individuales-peru.component';
+import { ExampleComponent } from './components/example/example.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +28,11 @@ import { CardsComponent } from './components/cards/cards.component';
     CreateReservaComponent,
     CarruselComponent,
     ContInicioComponent,
-    CardsComponent
+    CardsComponent,
+    InicioPeruComponent,
+    EspecialistasComponent,
+    PreciosIndividualesPeruComponent,
+    ExampleComponent
   ],
   imports: [
     BrowserModule,

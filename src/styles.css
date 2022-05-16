@@ -11,6 +11,7 @@
 
   --small: 15px;
   --medium: 20px;
+  --medium_l: 25px;
   --long: 50px;
   --extraLong: 80px;
 }
@@ -167,17 +168,19 @@
 }
 
 .home-testimonial h3 {
-  color: var(--orange);
+
   font-size: var(--small);
   font-weight: 500;
   text-transform: uppercase
+
 }
 
 .home-testimonial h2 {
   text-align: center;
   color: var(--azul_primary);
-  font-size: var(--medium);
-  font-weight: 700
+  font-size: var(--medium_l);
+  font-weight: 700;
+  font-family: Montserrat;
 }
 
 .testimonial-inner {
@@ -381,4 +384,56 @@
 
 #servicios {
   z-index: 1;
+}
+#card_psico_inicio{
+  width: 300px;
+  border-radius: 8px;
+  border: 2px;
+  border-color: var(--marron_primary);
+  box-sizing: border-box
+
+}
+.boton1 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #FFFFFF;
+  color: #AC6A4D;
+  border: 2px solid #AC6A4D;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.boton1:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}
+
+.boton2 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #AC6A4D;
+  border-radius: 8px;
+  border: 2px solid #AC6A4D;
+  box-sizing: border-box;
+}
+
+.boton2:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}
+
+
+#main .carousel-inner img {
+  height:80vh;
+ width: 30vh;
+ left: 80px;
+}
+
+#main .carousel-caption img {
+  height:53vh;
+ width: 40vh;
+
 }
