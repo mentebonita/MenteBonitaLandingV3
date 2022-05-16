@@ -117,6 +117,8 @@
 
 #main .carousel-inner img {
   max-height: 70vh;
+  width: auto;
+  object-fit: cover;
 }
 
 #carousel {
