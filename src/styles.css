@@ -439,3 +439,77 @@
   rgba(204, 157, 136, 0.5) 48.96%,
   rgba(192, 133, 106, 0) 100%);
  }
+
+ #filtros3 .boton1 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #FFFFFF;
+  color: #AC6A4D;
+  border: 2px solid #AC6A4D;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 110px;
+
+}
+
+#filtros3 .boton1:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}
+
+#filtros3 .boton2 {
+  background-color: var(--primaryBrown);
+  border-color: transparent;
+  background: #AC6A4D;
+  border-radius: 8px;
+  border: 2px solid #AC6A4D;
+  box-sizing: border-box;
+  width: 110px;
+}
+
+#filtros3 .boton2:hover {
+  background-color: var(--primaryPink);
+  color: var(--primaryBlue);
+  border-color: transparent;
+}
+#filtros3 form {
+width: 250px;
+margin: 0 auto;
+height: 50px;
+}
+
+#filtros3 form p {
+text-align: center;
+}
+
+#filtros3 form label {
+font-size: 20px;
+}
+
+#filtros3 input[type="radio"] {
+display: none;
+}
+
+#filtros3 label {
+color: #F4EDEA;
+}
+
+#filtros3 .clasificaciones {
+direction: rtl;
+unicode-bidi: bidi-override;
+}
+
+#filtros3 label:hover,
+label:hover ~ label {
+color: #E8DBAE;
+}
+
+#filtros3 input[type="radio"]:checked ~ label {
+color: #E8DBAE;
+}
+#filtros3 .card2{
+box-shadow: 8px 8px #AC6A4D;
+
+}
