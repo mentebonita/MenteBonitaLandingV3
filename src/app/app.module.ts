@@ -20,6 +20,13 @@ import { InicioPeruComponent } from './components/inicio-peru/inicio-peru.compon
 import { EspecialistasComponent } from './components/especialistas/especialistas.component';
 import { PreciosIndividualesPeruComponent } from './components/precios-individuales-peru/precios-individuales-peru.component';
 import { ExampleComponent } from './components/example/example.component';
+import { AUnPasoDeCrecerComponent } from './components/aUnPasoDeCrecer/aUnPasoDeCrecer.component';
+import { PorqueElegirnosComponent } from './components/porqueElegirnos/porqueElegirnos.component';
+import { ReservaTuCitaEnTresPasosComponent } from './components/reservaTuCitaEnTresPasos/reservaTuCitaEnTresPasos.component';
+import { ProgramaParaEmpresasComponent } from './components/programaParaEmpresas/programaParaEmpresas.component';
+import { DescuentoBannerComponent } from './components/descuentoBanner/descuentoBanner.component';
+import { GruposDeApoyoComponent } from './components/gruposDeApoyo/gruposDeApoyo.component';
+import { UltimosIngresosDelBlogComponent } from './components/ultimosIngresosDelBlog/ultimosIngresosDelBlog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,8 +39,15 @@ import { ExampleComponent } from './components/example/example.component';
     InicioPeruComponent,
     EspecialistasComponent,
     PreciosIndividualesPeruComponent,
-    ExampleComponent
-  ],
+    ExampleComponent,
+    AUnPasoDeCrecerComponent,
+    PorqueElegirnosComponent,
+    ReservaTuCitaEnTresPasosComponent,
+    ProgramaParaEmpresasComponent,
+    DescuentoBannerComponent,
+    GruposDeApoyoComponent,
+    UltimosIngresosDelBlogComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
