@@ -119,10 +119,12 @@
   max-height: 70vh;
   width: auto;
   object-fit: cover;
+
 }
 
 #main #carousel {
   position: relative;
+  z-index: 2;
 }
 
 #main #carousel .overlay {
@@ -132,6 +134,7 @@
   left: 0;
   right: 0;
   color: white;
+  z-index: 1;
 }
 
 #main #carousel .overlay .container,
