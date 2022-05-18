@@ -121,11 +121,11 @@
   object-fit: cover;
 }
 
-#carousel {
+#main #carousel {
   position: relative;
 }
 
-#carousel .overlay {
+#main #carousel .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -134,8 +134,8 @@
   color: white;
 }
 
-#carousel .overlay .container,
-#carousel .overlay .row {
+#main #carousel .overlay .container,
+#main #carousel .overlay .row {
   height: 100%;
 }
 
@@ -269,13 +269,6 @@
   max-width: 100%;
   height: auto;
 }
-
-.container {
-  font-size: var(--small);
-  padding-top: 10px;
-
-}
-
 .footer-clean {
   padding: 50px 0;
   background-color: #151C32;
@@ -430,19 +423,18 @@
   color: var(--primaryBlue);
   border-color: transparent;
 }
-
-
-#main .carousel-inner img {
-  height:80vh;
- width: 30vh;
+#carrito .carousel-inner img {
+  height:67vh;
+ width: 40vh;
  left: 80px;
 }
 
-#main .carousel-caption img {
+#carrito .carousel-caption img {
   height:53vh;
  width: 40vh;
 
 }
+<<<<<<< HEAD
 
 #fondo{
   background: linear-gradient(480deg, rgba(197, 158, 140, 0.8) 0%,
@@ -461,4 +453,16 @@
 #crecer .container-fluid {
   max-width: 100%;
   height: auto;
+=======
+.respuesta-image{
+   background-size: auto;
+   width: 100%;
+   height: 30%;
+   overflow: hidden;
+}
+@media(min-width:990px){
+   #carrito .carousel-inner .img-rectangulo{
+  height:400px;
+   }
+>>>>>>> e462ef0cb091403e3f6c1f4cb46c46ac3ee3a955
 }
