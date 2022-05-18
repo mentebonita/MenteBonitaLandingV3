@@ -27,6 +27,7 @@ import { ProgramaParaEmpresasComponent } from './components/programaParaEmpresas
 import { DescuentoBannerComponent } from './components/descuentoBanner/descuentoBanner.component';
 import { GruposDeApoyoComponent } from './components/gruposDeApoyo/gruposDeApoyo.component';
 import { UltimosIngresosDelBlogComponent } from './components/ultimosIngresosDelBlog/ultimosIngresosDelBlog.component';
+import { SuscripcionComponent } from './components/suscripcion/suscripcion.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +47,8 @@ import { UltimosIngresosDelBlogComponent } from './components/ultimosIngresosDel
     ProgramaParaEmpresasComponent,
     DescuentoBannerComponent,
     GruposDeApoyoComponent,
-    UltimosIngresosDelBlogComponent
+    UltimosIngresosDelBlogComponent,
+    SuscripcionComponent
    ],
   imports: [
     BrowserModule,

@@ -244,6 +244,10 @@
   height: auto;
 }
 
+#eligenos .card{
+  box-shadow: 8px 8px;
+}
+
 #empresas .container {
   background: #E6E2D4;
   max-width: 70%;
@@ -438,4 +442,23 @@
   height:53vh;
  width: 40vh;
 
+}
+
+#fondo{
+  background: linear-gradient(480deg, rgba(197, 158, 140, 0.8) 0%,
+  rgba(204, 157, 136, 0.5) 48.96%,
+  rgba(192, 133, 106, 0) 100%);
+ }
+
+ #caruselServicios img {
+  margin-top: 30px;
+  height: 80px;
+  margin-left: 160px;
+  border-radius: 30px;
+  padding-top: 80px;
+    }
+
+#crecer .container-fluid {
+  max-width: 100%;
+  height: auto;
 }
