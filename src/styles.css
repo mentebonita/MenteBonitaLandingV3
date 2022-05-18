@@ -116,7 +116,7 @@
 }
 
 #main .carousel-inner img {
-  max-height: 70vh;
+  max-height: 80vh;
   width: auto;
   object-fit: cover;
 
@@ -371,12 +371,11 @@
   height: auto;
 }
 
-#fondo .flotante {
+ .flotante {
   display: scroll;
   position: fixed;
-  bottom: 80px;
-  right: 45px;
-  z-index: 2;
+  bottom: 40px;
+  right: 80px;
 }
 
 #header img {
@@ -442,9 +441,6 @@
   rgba(204, 157, 136, 0.5) 48.96%,
   rgba(192, 133, 106, 0) 100%);
  }
-
-<<<<<<< HEAD
-=======
  #filtros3 .boton1 {
   background-color: var(--primaryBrown);
   border-color: transparent;
@@ -518,4 +514,3 @@ color: #E8DBAE;
 box-shadow: 8px 8px #AC6A4D;
 
 }
->>>>>>> 4b9ded87261eb59b632405ed3cb0b2e7b4f12a7a
