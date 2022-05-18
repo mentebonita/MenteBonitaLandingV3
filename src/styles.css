@@ -434,35 +434,8 @@
  width: 40vh;
 
 }
-<<<<<<< HEAD
-
 #fondo{
   background: linear-gradient(480deg, rgba(197, 158, 140, 0.8) 0%,
   rgba(204, 157, 136, 0.5) 48.96%,
   rgba(192, 133, 106, 0) 100%);
  }
-
- #caruselServicios img {
-  margin-top: 30px;
-  height: 80px;
-  margin-left: 160px;
-  border-radius: 30px;
-  padding-top: 80px;
-    }
-
-#crecer .container-fluid {
-  max-width: 100%;
-  height: auto;
-=======
-.respuesta-image{
-   background-size: auto;
-   width: 100%;
-   height: 30%;
-   overflow: hidden;
-}
-@media(min-width:990px){
-   #carrito .carousel-inner .img-rectangulo{
-  height:400px;
-   }
->>>>>>> e462ef0cb091403e3f6c1f4cb46c46ac3ee3a955
-}
